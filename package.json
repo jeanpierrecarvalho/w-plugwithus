@@ -41,6 +41,7 @@
 		"glob-parent": "6.0.2",
 		"graphql": "^16.2.0",
 		"immer": "9.0.12",
+		"jsonfile": "^6.1.0",
 		"md5": "^2.3.0",
 		"next": "^12.0.8",
 		"next-themes": "^0.0.15",
@@ -49,10 +50,9 @@
 		"react-markdown": "^7.1.2",
 		"react-syntax-highlighter": "^15.4.5",
 		"react-typed": "^1.2.0",
+		"simple-git": "^2.35.2",
 		"trim": "1.0.1",
-		"yup": "^0.32.11",
-		"jsonfile": "^6.1.0",
-		"simple-git": "^2.35.2"
+		"yup": "^0.32.11"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.16.7",
@@ -60,6 +60,7 @@
 		"@storybook/addon-actions": "^6.4.12",
 		"@storybook/addon-essentials": "^6.4.12",
 		"@storybook/addon-links": "^6.4.12",
+		"@storybook/addon-postcss": "^2.0.0",
 		"@storybook/builder-webpack5": "^6.4.12",
 		"@storybook/manager-webpack5": "^6.4.12",
 		"@storybook/react": "^6.4.12",
@@ -89,7 +90,8 @@
 		"jest-runner-eslint": "^1.0.0",
 		"jest-watch-select-projects": "^2.0.0",
 		"jest-watch-typeahead": "^1.0.0",
-		"postcss": "^8.4.5",
+		"postcss": "^8.4.14",
+		"postcss-loader": "^7.0.0",
 		"postcss-preset-env": "^7.2.3",
 		"prettier": "^2.5.1",
 		"react-test-renderer": "^17.0.2",
@@ -100,6 +102,7 @@
 		"webpack": "5.66.0"
 	},
 	"resolutions": {
+		"webpack": "^5",
 		"browserslist": "4.16.5",
 		"glob-parent": "5.1.2",
 		"immer": "9.0.6",
